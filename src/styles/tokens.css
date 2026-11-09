@@ -1,0 +1,44 @@
+:root {
+  --color-surface: #ffffff;
+  --color-text-primary: #1a1a1a;
+  --color-text-muted: #6b6660;
+  --color-border: #e4e0d8;
+  --color-brand: #e8552b;
+  --color-on-brand: #ffffff;
+  --color-tag-background: #fcebe4;
+  --color-tag-text: #b23e16;
+
+  --space-4: 4px;
+  --space-8: 8px;
+  --space-12: 12px;
+  --space-16: 16px;
+  --space-20: 20px;
+  --space-24: 24px;
+
+  --radius-md: 12px;
+  --radius-lg: 16px;
+  --radius-pill: 999px;
+
+  --font-family-sans: Inter, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+  --font-screen-title-size: 28px;
+  --font-screen-title-line-height: 34px;
+  --font-screen-title-weight: 600;
+  --font-card-title-size: 20px;
+  --font-card-title-line-height: 28px;
+  --font-card-title-weight: 600;
+  --font-card-body-size: 15px;
+  --font-card-body-line-height: 22px;
+  --font-card-body-weight: 400;
+  --font-card-caption-size: 14px;
+  --font-card-caption-line-height: 20px;
+  --font-card-caption-weight: 400;
+  --font-label-button-size: 16px;
+  --font-label-button-line-height: 24px;
+  --font-label-button-weight: 600;
+  --font-label-field-size: 14px;
+  --font-label-field-line-height: 20px;
+  --font-label-field-weight: 500;
+  --font-label-tag-size: 13px;
+  --font-label-tag-line-height: 18px;
+  --font-label-tag-weight: 500;
+}
