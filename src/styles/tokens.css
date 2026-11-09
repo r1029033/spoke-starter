@@ -15,6 +15,13 @@
   --space-20: 20px;
   --space-24: 24px;
 
+  /* Interaction tokens */
+  --motion-card-hover-duration: 180ms;
+  --motion-card-hover-ease: ease;
+  --motion-card-hover-y: calc(-1 * var(--space-4));
+  --shadow-card-hover: 0 var(--space-8) var(--space-16)
+    color-mix(in srgb, var(--color-text-primary) 12%, transparent);
+
   --radius-md: 12px;
   --radius-lg: 16px;
   --radius-pill: 999px;

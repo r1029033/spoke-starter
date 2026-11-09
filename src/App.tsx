@@ -147,7 +147,6 @@ function App() {
               className="booking-screen__input"
               label="Phone number"
               placeholder="+32 470 12 34 56"
-              state="focus"
             />
 
             <p className="booking-screen__note">

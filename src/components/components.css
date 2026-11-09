@@ -133,6 +133,11 @@
   outline: none;
 }
 
+.input__field:focus::placeholder,
+.input--focus .input__field::placeholder {
+  opacity: 0;
+}
+
 .top-bar {
   box-sizing: border-box;
   display: flex;
@@ -193,12 +198,13 @@
   background: var(--color-surface);
   cursor: pointer;
   text-align: left;
-  transition: transform 180ms ease, box-shadow 180ms ease;
+  transition: transform var(--motion-card-hover-duration) var(--motion-card-hover-ease),
+    box-shadow var(--motion-card-hover-duration) var(--motion-card-hover-ease);
 }
 
 .service-card:not(.service-card--selected):hover {
-  transform: translateY(calc(-1 * var(--space-4)));
-  box-shadow: 0 var(--space-8) var(--space-16) color-mix(in srgb, var(--color-text-primary) 12%, transparent);
+  transform: translateY(var(--motion-card-hover-y));
+  box-shadow: var(--shadow-card-hover);
 }
 
 @media (prefers-reduced-motion: reduce) {
