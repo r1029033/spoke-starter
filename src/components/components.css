@@ -193,6 +193,18 @@
   background: var(--color-surface);
   cursor: pointer;
   text-align: left;
+  transition: transform 180ms ease, box-shadow 180ms ease;
+}
+
+.service-card:not(.service-card--selected):hover {
+  transform: translateY(calc(-1 * var(--space-4)));
+  box-shadow: 0 var(--space-8) var(--space-16) color-mix(in srgb, var(--color-text-primary) 12%, transparent);
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .service-card {
+    transition: none;
+  }
 }
 
 .service-card--selected {
